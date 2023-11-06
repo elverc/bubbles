@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #content {
+    text-align: center;
+    margin-top: 20px; /* Add top margin to the content */
+  }
+  
+  .word {
+    margin: 0 10px;
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .word:hover {
+    color: red; /* Change text color to red on hover */
+  }
+  
